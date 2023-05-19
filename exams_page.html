@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="exams_page.css" />
+  <script src="https://kit.fontawesome.com/ef311647db.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      flex-basis: calc(20.33% - 20px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin: 10px;
+      background-color: #4285F4;
+      transition: transform 0.3s ease;
+      /* width: 0px; */
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10%;
+      margin-bottom: 10px;
+      border: 5px solid #ffffff;
+      transition: border-color 0.3s ease;
+    }
+
+    .card:hover img {
+      border-color: #ffffff80;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #ffffff;
+      margin-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- =======================
+            this is header
+            ========================== 
+        -->
+    <header>
+      <!-- 
+            this is the beinnign of navigation
+         -->
+      <nav>
+        <img src="images/logo.jpg" alt="logo" class="logo" />
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="ebooks.html">E-Books</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- =-====
+            SIGNININ ======== BUTTONS -->
+
+        <div class="signinbuttons">
+          <!-- <div class="login"><a href="login.html">Login</a></div>
+          <div class="register"><a href="signup.html">Register</a> </div> -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1 style="color: #FFF">Select your Exam </h1>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/intro_to_comp.jpg" alt="Image 1">
+          <h2><a href="intro_exam/intro_exam.html" style="color: #FFF">Basic Operation of computer</a> </h2>
+          <p>Learn about the fundamental operations performed by a computer.</p>
+        </div>
+        <div class="card">
+          <img src="images/ms_word.png" alt="Image 2">
+          <h2><a href="ms_word_exam/ms_word_exam.html" style="color: #FFF">Ms Word</a> </h2>
+          <p>Discover the power of Microsoft Word for creating professional documents</p>
+        </div>
+        <div class="card">
+          <img src="images/ms_ppt.png" alt="Image 3">
+          <h2><a href="ms_ppt_exam" style="color: #FFF"> Ms Power Point</a></h2>
+          <p>Unlock the power of Microsoft PowerPoint to create captivating and impactful presentations.</p>
+        </div>
+        <div class="card">
+          <img src="images/ms_excel.png" alt="Image 4">
+          <h2><a href="ms_excel_exam.html" style="color: #FFF"> Ms Excel</a></h2>
+          <p>Harness the power of Microsoft Excel for data analysis, calculations, and visualization.</p>
+        </div>
+        <div class="card">
+          <img src="images/data_science.jpg" alt="Image 1">
+          <h2>Data Analyysis</h2>
+          <p>Data Analysis is the process of inspecting, cleaning, transforming, and modeling data to discover useful information</p>
+        </div>
+        <div class="card">
+          <img src="images/data_analysis.jpg" alt="Image 2">
+          <h2>Data Science</h2>
+          <p>Data Science is a multidisciplinary field that combines statistical analysis, machine learning.</p>
+        </div>
+        <div class="card">
+          <img src="images/ai.jpg" alt="Image 3">
+          <h2>Artificial Intelligence</h2>
+          <p>Artificial Intelligence (AI) is a rapidly evolving field that focuses on creating intelligent machines capable of performing tasks that would typically require human intelligence.</p>
+        </div>
+        <div class="card">
+          <img src="images/prog.jpg" alt="Image 4">
+          <h2>programming</h2>
+          <p>Programming is a fundamental skill that empowers individuals to create software, build websites, automate tasks, and solve complex problems.</p>
+        </div>
+      </div>
+        
+    </main>
+
+  </div>
+
+</body>
+<footer>
+  <section>
+      <div class="right">
+          <ol>
+              <h3>Programmes</h3>
+              <li>
+                  <a href="index.html">Basic Computer Operation</a>
+              </li>
+              <li>
+                  <a href="playlist.html">Basic Computer Operation</a>
+              </li>
+              <li>
+                  <a href="books.html">Basic Computer Operation</a>
+              </li>
+              <li>
+                  <a href="contact.html">Basic Computer Operation</a>
+              </li>
+              <li>
+                  <a href="about.html">Basic Computer Operation</a>
+              </li>
+
+          </ol>
+
+      </div>
+      <div class="first__middle">
+          <ol>
+              <h3>Important Rout</h3>
+              <li>
+                  <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="index.html">About</a>
+              </li>
+              <li>
+                  <a href="playlist.html">Contact</a>
+              </li>
+              <li>
+                  <a href="books.html">Services</a>
+              </li>
+              <li>
+                  <a href="contact.html">E-Books</a>
+              </li>
+              <li>
+                  <a href="about.html">Exam</a>
+              </li>
+          </ol>
+      </div>
+      <div class="second__middle">
+          <ol>
+              <h3>ACTC Nigeria</h3>
+
+              <li>
+                  <a href="#">Our Journey</a>
+              </li>
+              <li>
+                  <a href="#">Our Diffrence</a>
+              </li>
+              <li>
+                  <a href="#">Write your difffrent</a>
+              </li>
+              <li>
+                  <a href="#">Write your Exam</a>
+              </li>
+
+          </ol>
+      </div>
+      <div class="left">
+          <ol>
+              <h3>ACTC Contact</h3>
+
+              <li>
+                  <a href="#"> <i class="fa-brands fa-facebook"></i> Facebook</a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-solid fa-envelope"></i> Email</a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-brands fa-square-whatsapp"></i> 08081714961</a>
+              </li>
+              <li>
+                  <a href="#" class="dev"><i class="fa-regular fa-brackets-curly"></i> Developer</a>
+              </li>
+          </ol>
+      </div>
+  </section>
+  <div class="footer__line"></div>
+  <div class="copyright"> copyright by abdulCoder 2023 </div>
+</footer>
+
+</html>
