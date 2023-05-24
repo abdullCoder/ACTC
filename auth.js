@@ -59,8 +59,8 @@ function register () {
 
     // DOne
     alert('Your account is successfully created!!!')
-    windows.location.href="login.html"
-  })
+    window.location.href="login.html"
+      })
   .catch(function(error) {
     // Firebase will use this to alert of its errors
     var error_code = error.code
