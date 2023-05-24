@@ -2,160 +2,160 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "What is a computer?",
+    answer: "A machine that processes data",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "A type of calculator",
+      "A machine that processes data",
+      " A musical instrument",
+      "A type of smartphone"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "What is the main function of an operating system?",
+    answer: "To control hardware and software resources",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "To display images on the screen",
+      "To control hardware and software resources",
+      "To play video games",
+      "To connect to the internet"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Which of the following is an output device?",
+    answer: " Printer",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Keyboard",
+      "Mouse",
+      " Printer",
+      " Hard drive"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Which of the following is an example of an input device??",
+    answer: "Scanner",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Monitor",
+      "Printer",
+      "Scanner",
+      "Speakers"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the meaning of \"Compute\"?",
+    answer: "To Calculate",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To Calculate",
+      "To Add",
+      "To Remove",
+      "To Subtract"
     ]
   },
   {
     numb: 6,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the function of a browser?",
+    answer: "To browse the internet and access websites",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To play video games",
+      "To create spreadsheets",
+      "To browse the internet and access websites",
+      "To write programming code"
     ]
   },
   {
     numb: 7,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Which of the following is an example of a web browser?",
+    answer: "Google Chrome",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Google Chrome",
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Windows Media Player"
     ]
   },
   {
     numb: 8,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is a URL?",
+    answer: "The address of a website on the internet",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      " A type of computer virus",
+      "The name of a computer network",
+      "The address of a website on the internet",
+      "The type of cable used to connect a computer to the internet"
     ]
   },{
     numb: 9,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is a mouse used for?",
+    answer: "To input data and control the cursor on the screen",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To display text on the screen",
+      "To listen to audio files",
+      "To input data and control the cursor on the screen",
+      "To print documents"
     ]
   },{
     numb: 10,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the function of a hard drive?",
+    answer: "To store and retrieve data on a long-term basis",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To display images on the screen",
+      "To store and retrieve data on a long-term basis",
+      "To connect to the internet",
+      "To play video games"
     ]
   },{
     numb: 11,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Which of the following is an example of an operating system?",
+    answer: "Microsoft",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      " Microsoft Excel",
+      "Apple iTunes",
+      "Microsoft",
+      "Adobe Photoshop"
     ]
   },{
     numb: 12,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the purpose of a keyboard?",
+    answer: "To input data and commands into a computer",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To input data and commands into a computer",
+      "To display text on the screen",
+      "To control the volume of audio",
+      "To connect to a wireless network"
     ]
   },{
     numb: 13,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the purpose of a monitor?",
+    answer: "To display images, videos, and text on the screen",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To store and retrieve data on a long-term basis",
+      "To display images, videos, and text on the screen",
+      "To input data and control the cursor on the screen",
+      "To connect to the internet"
     ]
   },{
     numb: 14,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the purpose of a USB port?",
+    answer: "To connect peripheral devices like printers or external hard drives",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To connect a computer to the internet",
+      "To display images on the screen",
+      "To connect peripheral devices like printers or external hard drives",
+      " To play video games"
     ]
   },{
     numb: 15,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the purpose of a password?",
+    answer: "To protect your computer from unauthorized users",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "To protect against physical damage to a computer",
+      "To protect your computer from unauthorized users",
+      "To create backups of files",
+      "To restrict access to a computer or online account"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
