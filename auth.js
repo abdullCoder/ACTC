@@ -100,7 +100,7 @@ function login () {
     database_ref.child('users/' + user.uid).update(user_data)
 
     // DOne
-    alert('Yoour successfully logged in')
+    alert('You are successfully logged in')
     window.location.href = "exams_page.html"
 
   })
