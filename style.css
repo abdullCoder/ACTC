@@ -345,7 +345,7 @@ header .span span .apply:hover {
 
 .photos .image1 {
     height: 250px;
-    width: 40rem;
+    width: 16rem;
     background-color: #55557e;
     border-right: 5px solid#070aaf;
     border-bottom: 5px solid #070aaf;
@@ -360,7 +360,7 @@ header .span span .apply:hover {
     margin-top: -10px;
     margin-left: 40px;
     height: 240px;
-    width: 25rem;
+    width: 20rem;
     background-color: #fffdfd;
     /* border-right: 5px solid rgb(214, 228, 88); */
     border-bottom: 5px solid #070aaf;
